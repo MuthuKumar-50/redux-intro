@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 function formatCurrency(value) {
   return new Intl.NumberFormat("en", {
     style: "currency",
-    currency: "INR",
+    currency: "USD",
   }).format(value);
 }
 
